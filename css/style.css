@@ -1,0 +1,16 @@
+/* Gerais */
+body {
+    background-color: #0E0E0E !important;
+}
+
+.text-bg-black {
+    background: black;
+}
+
+.bg-black {
+    background: black;
+}
+
+.bg-gray {
+    background: #242424;
+}
