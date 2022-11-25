@@ -17,7 +17,7 @@
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="../php-final-project/index.php" class="nav-link px-2 text-white">Home</a></li>
+                    <li><a href="../php-fut-news/index.php" class="nav-link px-2 text-white">Home</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">Planos</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">Sobre</a></li>
                 </ul>
@@ -46,7 +46,7 @@
                                             <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
                                                 <label class="form-label" for="form3Example3c"><strong>Nome:</strong></label>
-                                                <input type="text" name="name" id="form3Example1c" class="form-control" placeholder="Insira seu nome" />
+                                                <input type="text" name="name" id="form3Example1c" class="form-control" placeholder="Insira seu nome" required />
                                             </div>
                                         </div>
 
@@ -54,7 +54,7 @@
                                             <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
                                                 <label class="form-label" for="form3Example3c"><strong>E-mail:</strong></label>
-                                                <input type="email" name="email" id="form3Example3c" class="form-control" placeholder="Digite seu e-mail" />
+                                                <input type="email" name="email" id="form3Example3c" class="form-control" placeholder="Digite seu e-mail" required />
                                             </div>
                                         </div>
 
@@ -62,7 +62,7 @@
                                             <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
                                                 <label class="form-label" for="form3Example3c"><strong>Data de nascimento:</strong></label>
-                                                <input type="date" name="birthdate" class="form-control" placeholder="Data de nascimento" aria-label="Username" aria-describedby="basic-addon1" name="data">
+                                                <input type="date" name="birthdate" class="form-control" placeholder="Data de nascimento" aria-label="Username" aria-describedby="basic-addon1" name="data" required>
                                             </div>
                                         </div>
 
@@ -70,7 +70,7 @@
                                             <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
                                                 <label class="form-label" for="form3Example3c"><strong>Senha:</strong></label>
-                                                <input type="password" name="password" id="form3Example4c" class="form-control" />
+                                                <input type="password" name="password" id="form3Example4c" class="form-control" required />
                                             </div>
                                         </div>
 
