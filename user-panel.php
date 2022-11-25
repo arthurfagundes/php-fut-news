@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once 'init.php';
+require 'check.php';
 ?>
 
 <!DOCTYPE html>
@@ -38,7 +39,7 @@ require_once 'init.php';
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
                     <h1 class="text-white">Olá, <?php echo $_SESSION['user_name']; ?>!</h1>
-                    <p class="lead text-white">Seja muito bem-vindo ao painel de usuário! Aqui você fica por dentro de todos os melhores momentos da Copa do Mundo 2022.</p>
+                    <p class="lead text-white">Seja muito bem-vindo(a) ao painel de usuário! Aqui você fica por dentro de todos os melhores momentos da Copa do Mundo 2022.</p>
                     <p class="lead text-muted">Atualizamos todo fim de jogo.</p>
                 </div>
             </div>

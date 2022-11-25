@@ -8,14 +8,14 @@ if (empty($email) || empty($password)) {
     echo "E-mail ou senha incorretos!";
 }
 
-$passwordHash = make_hash($password);
+//$passwordHash = make_hash($password);
 $PDO = db_connect();
 
 
 $sql = "SELECT * FROM users WHERE email = :email AND password = :password";
 $stmt = $PDO->prepare($sql);
 $stmt->bindParam(':email', $email);
-$stmt->bindParam(':password', $passwordHash);
+$stmt->bindParam(':password', $password);
 $stmt->execute();
 
 $users = $stmt->fetchAll(PDO::FETCH_ASSOC);

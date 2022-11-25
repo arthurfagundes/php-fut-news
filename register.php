@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 $birthdate = $_POST['birthdate'];
 
-$passwordHash = make_hash($password);
+//$passwordHash = make_hash($password);
 
 try {
     $conexao = new PDO("mysql:host=localhost;dbname=bdfutnews", "root", "");
@@ -19,7 +19,7 @@ try {
 $stmt = $conexao->prepare("INSERT INTO users(name, email, password, birthdate) VALUES (?, ?, ?, ?)");
 $stmt->bindParam(1, $name);
 $stmt->bindParam(2, $email);
-$stmt->bindParam(3, $passwordHash);
+$stmt->bindParam(3, $password);
 $stmt->bindParam(4, $birthdate);
 
 $stmt->execute();
