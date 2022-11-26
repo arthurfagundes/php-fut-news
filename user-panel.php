@@ -13,7 +13,6 @@ require 'check.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fut News - Painel do usuário</title>
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/panel.css" rel="stylesheet">
     <link href="css/signin.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
@@ -316,6 +315,74 @@ require 'check.php';
                                         </a>
                                     </div>
                                     <small class="text-muted">9:00</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm h-100">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/mPEkpyAzWcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                                <p class="card-text">PAÍS DE GALES 0 X 2 IRÃ | MELHORES MOMENTOS | 2ª RODADA | FASE DE GRUPOS | COPA DO MUNDO 2022</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://youtu.be/mPEkpyAzWcM">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Assistir no YouTube</button>
+                                        </a>
+                                    </div>
+                                    <small class="text-muted">6:49</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm h-100">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/CfAkQ1KoAPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                                <p class="card-text">CATAR 1 X 3 SENEGAL | MELHORES MOMENTOS | 2ª RODADA | FASE DE GRUPOS | COPA DO MUNDO 2022</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://youtu.be/CfAkQ1KoAPQ">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Assistir no YouTube</button>
+                                        </a>
+                                    </div>
+                                    <small class="text-muted">5:31</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm h-100">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/KU5QZUOQmsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                                <p class="card-text">HOLANDA 1 x 1 EQUADOR | MELHORES MOMENTOS | 2ª RODADA | FASE DE GRUPOS | COPA DO MUNDO 2022</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://youtu.be/KU5QZUOQmsQ">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Assistir no YouTube</button>
+                                        </a>
+                                    </div>
+                                    <small class="text-muted">3:58</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm h-100">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ItCm-yYHVw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                                <p class="card-text">INGLATERRA 0 X 0 EUA | MELHORES MOMENTOS | 2ª RODADA | FASE DE GRUPOS | COPA DO MUNDO 2022</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://youtu.be/ItCm-yYHVw4">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Assistir no YouTube</button>
+                                        </a>
+                                    </div>
+                                    <small class="text-muted">2:51</small>
                                 </div>
                             </div>
                         </div>
