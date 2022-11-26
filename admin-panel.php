@@ -69,9 +69,9 @@ $connect = mysqli_connect("localhost", "root", "", "bdfutnews");
                                             <td><?= $user['active']; ?></td>
                                             <td><?= $user['admin']; ?></td>
                                             <td>
-                                                <a class="btn btn-success btn-sm">Conceder acesso</a>
-                                                <a class="btn btn-warning btn-sm">Revogar acesso</a>
-                                                <a class="btn btn-danger btn-sm">Deletar usuário</a>
+                                                <a href=<?php echo "./give-access.php\?id=" . $user['id'] ?> class="btn btn-secondary btn-sm">Conceder acesso</a>
+                                                <a href=<?php echo "./revoke-access.php\?id=" . $user['id'] ?> class="btn btn-secondary btn-sm">Revogar acesso</a>
+                                                <a href=<?php echo "./delete-user.php\?id=" . $user['id'] ?> class="btn btn-danger btn-sm">Deletar usuário</a>
                                             </td>
                                         </tr>
                                 <?php
